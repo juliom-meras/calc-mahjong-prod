@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+    <!-- A beautiful, thicker Riichi Tenbou stick (slightly tilted for realism and dynamic aesthetic) -->
+    <g transform="rotate(-30 12 12)">
+        <!-- Stick body -->
+        <rect x="1" y="8" width="22" height="8" rx="2" fill="url(#stickGrad)" stroke="#475569" stroke-width="1"/>
+        <!-- Central red dot -->
+        <circle cx="12" cy="12" r="2.2" fill="#dc2626"/>
+    </g>
+    <defs>
+        <linearGradient id="stickGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="30%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#cbd5e1"/>
+        </linearGradient>
+    </defs>
+</svg>
